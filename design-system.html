@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Design System</title>
+	</head>
+	<body style="padding-block: 60px">
+		<header class="container | flex justify-between" style="margin-bottom: 112px">
+			<p class="fs-700 fw-700">suite</p>
+			<h1 class="fs-400 fw-700">Design System</h1>
+		</header>
+		<div class="container">
+			<section id="colors">
+				<h2 class="numbered-title">
+					<span class="fw-700 fs-700 text-neutral-900">01</span>Colors
+				</h2>
+				<div class="flex flex-wrap">
+					<div>
+						<div
+							class="bg-neutral-900 text-neutral-100"
+							style="
+								padding: 14px 0px 54px 25px;
+								width: 255px;
+								border: 1px solid hsl(var(--clr-neutral-900));
+								border-radius: var(--border-radius);
+								margin-bottom: 16px;
+							"
+						>
+							<p class="fw-700">#172339</p>
+						</div>
+						<p class="grid grid-cols-2">
+							<span class="text-neutral-800">RGB</span>23, 35, 57
+						</p>
+						<p class="grid grid-cols-2">
+							<span class="text-neutral-800">HSL</span>219°, 43%, 16%
+						</p>
+					</div>
+					<div>
+						<div
+							class="bg-neutral-800 text-neutral-100"
+							style="
+								padding: 14px 0px 54px 25px;
+								width: 255px;
+								border: 1px solid hsl(var(--clr-neutral-800));
+								border-radius: var(--border-radius);
+								margin-bottom: 16px;
+							"
+						>
+							<p class="fw-700">#49566D</p>
+						</div>
+						<p class="grid grid-cols-2">
+							<span class="text-neutral-800">RGB</span>73, 86, 109
+						</p>
+						<p class="grid grid-cols-2">
+							<span class="text-neutral-800">HSL</span>218°, 20%, 36%
+						</p>
+					</div>
+					<div>
+						<div
+							class="bg-neutral-300 text-neutral-900"
+							style="
+								padding: 14px 0px 54px 25px;
+								width: 255px;
+								border: 1px solid hsla(var(--clr-neutral-900) / 0.2);
+								border-radius: var(--border-radius);
+								margin-bottom: 16px;
+							"
+						>
+							<p class="fw-700">#F3EDE7</p>
+						</div>
+						<p class="grid grid-cols-2">
+							<span class="text-neutral-800">RGB</span>243, 237, 231
+						</p>
+						<p class="grid grid-cols-2">
+							<span class="text-neutral-800">HSL</span>30°, 33%, 93%
+						</p>
+					</div>
+					<div>
+						<div
+							class="bg-neutral-100 text-neutral-900"
+							style="
+								padding: 14px 0px 54px 25px;
+								width: 255px;
+								border: 1px solid hsla(var(--clr-neutral-900) / 0.2);
+								border-radius: var(--border-radius);
+								margin-bottom: 16px;
+							"
+						>
+							<p class="fw-700">#FAF8F6</p>
+						</div>
+						<p class="grid grid-cols-2">
+							<span class="text-neutral-800">RGB</span>243, 237, 231
+						</p>
+						<p class="grid grid-cols-2">
+							<span class="text-neutral-800">HSL</span>30°, 33%, 93%
+						</p>
+					</div>
+					<div>
+						<div
+							class="bg-accent-03 text-neutral-100"
+							style="
+								padding: 14px 0px 54px 25px;
+								width: 255px;
+								border: 1px solid hsl(var(--clr-accent-03));
+								border-radius: var(--border-radius);
+								margin-bottom: 16px;
+							"
+						>
+							<p class="fw-700">#FAF8F6</p>
+						</div>
+						<p class="grid grid-cols-2">
+							<span class="text-neutral-800">RGB</span>160, 96, 255
+						</p>
+						<p class="grid grid-cols-2">
+							<span class="text-neutral-800">HSL</span>264°, 100%, 69%
+						</p>
+					</div>
+					<div>
+						<div
+							class="bg-accent-02 text-neutral-100"
+							style="
+								padding: 14px 0px 54px 25px;
+								width: 255px;
+								border: 1px solid hsl(var(--clr-accent-02));
+								border-radius: var(--border-radius);
+								margin-bottom: 16px;
+							"
+						>
+							<p class="fw-700">#CB30E3</p>
+						</div>
+						<p class="grid grid-cols-2">
+							<span class="text-neutral-800">RGB</span>203, 48, 227
+						</p>
+						<p class="grid grid-cols-2">
+							<span class="text-neutral-800">HSL</span>292°, 76%, 54%
+						</p>
+					</div>
+					<div>
+						<div
+							class="bg-accent-01 text-neutral-100"
+							style="
+								padding: 14px 0px 54px 25px;
+								width: 255px;
+								border: 1px solid hsl(var(--clr-accent-01));
+								border-radius: var(--border-radius);
+								margin-bottom: 16px;
+							"
+						>
+							<p class="fw-700">#FFA84E</p>
+						</div>
+						<p class="grid grid-cols-2">
+							<span class="text-neutral-800">RGB</span>255, 168, 78
+						</p>
+						<p class="grid grid-cols-2">
+							<span class="text-neutral-800">HSL</span>31°, 100%, 65%
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="typography" style="margin: 4rem 0">
+				<h2 class="numbered-title">
+					<span class="fw-700 fs-700 text-neutral-900">02</span>Typography
+				</h2>
+				<div class="flow" style="--flow-space: 4rem">
+					<div class="grid grid-cols-3" style="--gap: 3.75rem">
+						<p class="fw-700">
+							Heading <br />
+							XL
+						</p>
+						<p class="fs-500 text-neutral-800">
+							<span class="fw-500">Epilogue Bold & Regular</span>
+							<br /><span class="opacity-75"
+								>72px - 78px Line Space - -1px Char. Space</span
+							>
+						</p>
+						<p class="fs-900 letter-spacing-2">
+							<span class="fw-700">Lorem</span> ipsum
+						</p>
+					</div>
+					<div class="grid grid-cols-3" style="--gap: 3.75rem">
+						<p class="fw-700">
+							Heading <br />
+							L
+						</p>
+						<p class="fs-500 text-neutral-800">
+							<span class="fw-500">Epilogue Bold & Regular</span>
+							<br /><span class="opacity-75"
+								>48px - 56px Line Space - -0.5px Char. Space</span
+							>
+						</p>
+						<p class="fs-800 letter-spacing-3">
+							<span class="fw-700">Morbi in sem</span> quis dui
+						</p>
+					</div>
+					<div class="grid grid-cols-3" style="--gap: 3.75rem">
+						<p class="fw-700">
+							Heading <br />
+							M
+						</p>
+						<p class="fs-500 text-neutral-800">
+							<span class="fw-500">Epilogue Bold</span>
+							<br /><span class="opacity-75"
+								>18px - 32px Line Space - -0.2px Char. Space</span
+							>
+						</p>
+						<p class="fw-700 fs-500 letter-spacing-4 uppercase">
+							ellentesque odio nisi euismod in
+						</p>
+					</div>
+					<div class="grid grid-cols-3" style="--gap: 3.75rem">
+						<p class="fw-700">
+							Heading <br />
+							S
+						</p>
+						<p class="fs-500 text-neutral-800">
+							<span class="fw-500">Epilogue Regular</span>
+							<br /><span class="opacity-75"
+								>16px - 26px Line Space - 2.5px Char. Space</span
+							>
+						</p>
+						<p class="fs-400 letter-spacing-1 uppercase text-neutral-800">
+							ante et vulputate volutpat
+						</p>
+					</div>
+					<div class="grid grid-cols-3" style="--gap: 3.75rem">
+						<p class="fw-700">Quote</p>
+						<p class="fs-500 text-neutral-800">
+							<span class="fw-500">Epilogue Regular</span>
+							<br /><span class="opacity-75"
+								>20px - 35px Line Space - 0px Char. Space</span
+							>
+						</p>
+						<p class="fs-600 text-neutral-800">
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+							Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi
+							neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
+							ligula sollicitudin laoreet viverra
+						</p>
+					</div>
+					<div class="grid grid-cols-3" style="--gap: 3.75rem">
+						<p class="fw-700">Body</p>
+						<p class="fs-500 text-neutral-800">
+							<span class="fw-500">Epilogue Regular</span>
+							<br /><span class="opacity-75"
+								>18px - 32px Line Space - 0px Char. Space</span
+							>
+						</p>
+						<p class="fs-500 text-neutral-800">
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+							Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi
+							neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
+							ligula sollicitudin laoreet viverra
+						</p>
+					</div>
+					<div class="grid grid-cols-3" style="--gap: 3.75rem">
+						<p class="fw-700">Footer</p>
+						<p class="fs-500 text-neutral-800">
+							<span class="fw-500">Epilogue Regular</span>
+							<br /><span class="opacity-75"
+								>15px - 32px Line Space - 0px Char. Space</span
+							>
+						</p>
+						<p class="fs-300 text-neutral-800">
+							Lorem ipsum dolor sit amet, consectetuer adipiscing
+						</p>
+					</div>
+				</div>
+			</section>
+			<section id="buttons" style="margin: 4rem 0">
+				<h2 class="numbered-title">
+					<span class="fw-700 fs-700 text-neutral-900">03</span>Buttons
+				</h2>
+				<div
+					class="bg-neutral-300 flex justify-between align-center"
+					style="padding: 72px; border-radius: var(--border-radius)"
+				>
+					<div class="flex flex-col" style="--gap: 3.5rem">
+						<div>
+							<button class="button primary-button">Request Beta Access</button>
+							<p
+								class="text-neutral-800 fs-500"
+								style="text-align: center; margin-top: 24px"
+							>
+								Primary Default
+							</p>
+						</div>
+						<div>
+							<button class="button primary-button" active>
+								Request Beta Access
+							</button>
+							<p
+								class="text-neutral-800 fs-500"
+								style="text-align: center; margin-top: 24px"
+							>
+								Primary Hover
+							</p>
+						</div>
+					</div>
+					<div class="flex flex-col" style="--gap: 3.5rem">
+						<div>
+							<button class="button secondary-button">
+								Request Beta Access
+							</button>
+							<p
+								class="text-neutral-800 fs-500"
+								style="text-align: center; margin-top: 24px"
+							>
+								Secondary Default
+							</p>
+						</div>
+						<div>
+							<button class="button secondary-button" active>
+								Request Beta Access
+							</button>
+							<p
+								class="text-neutral-800 fs-500"
+								style="text-align: center; margin-top: 24px"
+							>
+								Secondary Hover
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</body>
+</html>
