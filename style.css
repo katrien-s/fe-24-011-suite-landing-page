@@ -476,6 +476,12 @@ select {
 	color: hsl(var(--clr-neutral-100));
 }
 
+@media (width <= 23.5em) {
+	.secondary-button {
+		font-size: var(--fs-300);
+	}
+}
+
 /* ----------------  */
 /* Page Specific     */
 /* ----------------  */
