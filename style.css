@@ -612,8 +612,7 @@ svg:focus path {
 	gap: 40px;
 	align-items: center;
 	justify-content: center;
-	padding-bottom: 64px;
-	/* padding-inline: 80px 125px; */
+	padding: 40px 64px;
 }
 
 @media (width >= 35em) {
@@ -625,7 +624,9 @@ svg:focus path {
 
 @media (width >= 62.5em) {
 	.quote__section {
-		margin-top: 200px;
+		margin-top: 300px;
+		position: relative;
+		height: 450px;
 	}
 
 	.quote__container {
@@ -633,6 +634,8 @@ svg:focus path {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		border-radius: var(--border-radius-large);
+		position: absolute;
+		top: -150px;
 	}
 
 	.quote__picture {
@@ -662,6 +665,12 @@ svg:focus path {
 		align-items: start;
 		padding-right: 125px;
 		padding-bottom: unset;
+		position: relative;
+	}
+
+	.quote__svg {
+		position: absolute;
+		left: -40px;
 	}
 }
 
