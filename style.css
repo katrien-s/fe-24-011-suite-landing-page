@@ -35,7 +35,7 @@
 	--transition: all 0.3s ease;
 }
 
-@media (width >= 35em) {
+@media (min-width: 35em) {
 	:root {
 		--fs-900: 3.5rem;
 		--fs-800: 3rem;
@@ -106,13 +106,13 @@ body {
 	padding-top: 1.5rem;
 }
 
-@media (width >= 35em) {
+@media (min-width: 35em) {
 	body {
 		padding-top: 2.5rem;
 	}
 }
 
-@media (width >= 62.5em) {
+@media (min-width: 62.5em) {
 	body {
 		padding-top: 3rem;
 	}
@@ -220,7 +220,7 @@ select {
 	grid-column: 2;
 }
 
-@media (width >= 35em) {
+@media (min-width: 35em) {
 	.container {
 		--spacing-gap: 12px;
 		--spacing-inline: 4rem;
@@ -246,7 +246,7 @@ select {
 	}
 }
 
-@media (width >= 62.5em) {
+@media (min-width: 62.5em) {
 	.fb-col-wrapper {
 		--spacing-gap: 30px;
 	}
@@ -537,7 +537,7 @@ svg:focus path {
 	text-align: center;
 }
 
-@media (width >= 35em) {
+@media (min-width: 35em) {
 	.hero__section::before {
 		top: 5.5rem;
 		left: 250px;
@@ -567,7 +567,7 @@ svg:focus path {
 	}
 }
 
-@media (width >= 62.5em) {
+@media (min-width: 62.5em) {
 	.hero__section::before {
 		top: 7rem;
 		left: 300px;
@@ -621,14 +621,14 @@ svg:focus path {
 	padding: 40px 64px;
 }
 
-@media (width >= 35em) {
+@media (min-width: 35em) {
 	.quote__text {
 		padding-inline: 58px;
 		padding-bottom: 64px;
 	}
 }
 
-@media (width >= 62.5em) {
+@media (min-width: 62.5em) {
 	.quote__section {
 		margin-top: 300px;
 		position: relative;
@@ -702,7 +702,7 @@ footer {
 	display: flex;
 }
 
-@media (width >= 35em) {
+@media (min-width: 35em) {
 	footer {
 		padding-block: 2.5rem 4.5rem;
 	}
@@ -714,7 +714,7 @@ footer {
 	}
 }
 
-@media (width >= 62.5em) {
+@media (min-width: 62.5em) {
 	footer {
 		padding-block: 3rem 4.5rem;
 	}
